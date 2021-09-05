@@ -1,27 +1,22 @@
-<!DOCTYPE html>
+{% load static %}
+<!DOCTYPE html> 
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
-<body>
-   <H1>hello world </H1>    
-   <div class="main">
-    <div class="logo">
-      <img src="south-street-logo.jpg" alt="logo">
-    </div>
-    <ul>
-        <li class="active" ><a href="#">Home</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">about</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-</div>
-<div class="title">
-    <h1><i>SOUTH STREET</i></h1>
-</div>
-
+<body class="body">
+  <h1 class="head">get in touch</h1>
+  <div class="ss">
+  <input class="fname" type="text" placeholder="first name"> <br> <input class="lname" type="text" placeholder="lastname"> <br>
+  <input class="lname" type="email" name="" id="" placeholder="your email"> <br>
+  <input class="number" type="number" name="" id="" placeholder="mobile no"> <br>
+  <input class="button" type="button" value="submit">
+  </div>
 </body>
 </html>

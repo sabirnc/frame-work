@@ -1,0 +1,63 @@
+.body{
+   background:  linear-gradient(
+             to right,#f32170, #ff6b08,
+             #cf23cf, #eedd44);
+             font-family: Arial, Helvetica, sans-serif;
+            
+             
+}
+.head{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: white;
+}
+.ss{
+    text-align: center; 
+
+}
+.fname{
+    height: 22px;
+    width: 40%;
+   border-style: solid;
+   border-color:coral;
+   border-radius: 20px;
+   padding: 8px;
+   text-align: center;
+   text-transform: capitalize;
+   margin: 15px;
+}
+.lname{
+    height: 22px;
+    width: 40%;
+   border-style: solid;
+   border-color:coral;
+   border-radius: 20px; 
+   padding: 8px;
+   text-align: center;
+   text-transform: capitalize;
+   margin: 15px;
+}
+.number{
+    height: 22px;
+    width: 40%;
+   border-style: solid;
+   border-color:coral;
+   border-radius: 20px; 
+   padding: 8px;
+   text-align: center;
+   text-transform: capitalize;
+   margin: 15px;   
+}
+.button{
+  height: 40px;
+  width: 350px; 
+  border-radius: 20px; 
+  margin: 15px;
+  background:beige
+   
+}
+
+
+   
+    
+   
